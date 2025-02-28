@@ -21,6 +21,6 @@ while True:
     password = input('შეიყვანეთ პაროლი: ')
     if email == correct_email and password == correct_password:
         print('მომხმარებელი წარმატებით ავტორიზებულია.')
-        break
+        
     else:
         print('ელ. ფოსტა ან პაროლი არასწორია. სცადეთ თავიდან.')
